@@ -1,3 +1,2 @@
 # Live-Health-Consualtation-Project
-<br>
-This is a project live health consualtation live intact to doctor and patient to conversesion to health problem to discous by doctor. 
+It is a project in which live health consultation takes place between the doctor and the patient, in which the doctor talks about the health problem. and is treated.
