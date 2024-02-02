@@ -1,0 +1,118 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 19-Mar-2023, 8:59:14 pm
+    Author     : HP
+*/
+*{
+    margin: 0px;
+}
+/*div{
+    float: left;
+}*/
+.D1{
+ 
+    width: 100%;
+    
+    
+}
+.D2{
+    width: 90%;
+    background-color:#eef5ff;
+margin-left: 5%;
+border: solid black;
+
+}
+.D3{
+    width: 90%;
+    background-color:#eef5ff;
+    margin-left: 5%;
+   
+    height: 627px;
+    
+}
+.I1{
+    display: flex;
+    position: relative;
+    top: 78px;
+left: 51px;
+width: 263px;
+}
+.RowDetail1{
+   width: 75%;
+height: 100px;
+margin-left: 25%;
+position: relative;
+top: -224px;
+line-height: 35px;
+}
+.col1{
+    width: 55%;
+height: 100px;
+font-family: 'Roboto-Regular';
+font-size: 14px;
+padding: 25px;
+float: left;
+}
+
+.col2{
+    width: 38%;
+    height: 191px;
+    border: 2px solid black;
+     float: left;
+     
+}
+.btn-avl{
+    width: 79px;
+height: 34px;
+}
+
+.RowDetail2{
+   width: 75%;
+height: 100px;
+margin-left: 25%;
+position: relative;
+top: -174px;
+line-height: 20px;
+
+}
+.col2-1{
+    width: 24%;
+    height: 150px;
+     margin-left: 155px;
+     float: left;
+}
+.dr-cr{
+    content: "";
+border-right: 2px solid #354c5c;
+margin-right: 20px;
+font-weight: bold;
+}
+
+.RowDetail3{
+   width: 100%;
+position: relative;
+top: -196px;
+line-height: 35px;
+
+}
+.op-btn{
+    width: 397px;
+height: 50px;
+font-size: 20px;
+background-color: #1839f0;
+border-radius: 13px;
+margin: 10px;
+border: none;
+position: relative;
+left: 266px;
+}
+.btn-profile{
+    height: 39px;
+width: 129px;
+font-size: 18px;
+position: relative;
+left: 118px;
+}

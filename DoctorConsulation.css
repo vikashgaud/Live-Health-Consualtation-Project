@@ -1,0 +1,88 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 01-Mar-2023, 5:25:48 pm
+    Author     : HP
+*/
+
+*{
+    margin: 0px;
+}
+
+.D1{
+ 
+    width: 100%;
+    height: 500px;
+    
+}
+.D2{
+    width: 90%;
+    background-color:#eef5ff;
+margin-left: 5%;
+border: solid black;
+height: 996px;
+}
+.D3{
+    width: 90%;
+    background-color:#eef5ff;
+    margin-left: 5%;
+    height: 490px;
+    border: solid black;
+}
+.I1{
+    position: relative;
+    top: 78px;
+left: 51px;
+}
+  
+
+.card{
+    
+    max-width: 100vw;
+margin: auto;
+}
+.card-item{
+    background-color: #d5d5d3;
+   display: inline-flex;
+justify-content: center;
+flex-direction: column;
+margin: 26px 9px;
+height: 317px;
+width: 322px;
+}
+.container {
+
+    min-height: calc(100vh - 58px - 12vh);  
+}
+.Name-Set{
+   
+    position: relative;
+top: -140px;
+background: #5eb2fa;
+text-align: center;
+font-family: initial;
+height: 48px;
+}
+.FS{
+    font-size: 1.8rem;
+}
+.img11{
+   
+height: 193px;
+width: 322px;
+margin-top: 4px;
+}
+.VDbtn{
+    
+width: 309px;
+height: 45px;
+font-size: 21px;
+border-radius: 38px;
+border: none;
+}
+.VDbtn:hover{
+    background-color: #5eb2fa;
+    
+}

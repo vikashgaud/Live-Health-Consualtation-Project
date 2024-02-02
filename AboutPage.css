@@ -1,0 +1,223 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 27-Apr-2023, 4:15:52 pm
+    Author     : HP
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+:root {
+    --primary-text-color: #183b56;
+    --secondary-color: #577592;
+    --accent-color: #2294ED;
+    --accent-dark-color: #1d69a3;
+    --padding-inline-section: 20px;
+
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: var(--primary-text-color);
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.25 rem;
+    color: var(--secondary-color);
+    line-height: 1.8 rem;
+}
+
+ul {
+    list-style: none;
+}
+
+
+/* ---------------------Utilities--------------------------- */
+.small-bold-text {
+    font-size: 1 rem;
+    font-weight: 700;
+}
+
+.container-1{
+    max-width: 1180px;
+    margin-inline: auto;
+    padding-inline: var(--padding-inline-section);
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.hover-link {
+    color: var(--primary-text-color);
+}
+
+.hover-link:hover {
+    color: var(--accent-color);
+    transition: 0.25s ease;
+}
+
+.primary-button {
+    background-color: var(--accent-color);
+    color: white !important;
+    border-radius: 6px;
+    font-weight: 700;
+    padding: 12px 24px;
+    box-shadow: 0 0 2px var(--secondary-color);
+}
+
+.primary-button:hover {
+    background-color: var(--primary-text-color);
+    transition: 0.2s ease-out;
+}
+
+.secondary-button {
+    border: 0.5px solid var(--secondary-color);
+    border-radius: 6px;
+    font-weight: 700;
+    color: var(--primary-text-color);
+    padding: 12px 24px;
+    transition: 0.2s ease-out;
+}
+
+.secondary-button:hover {
+    border-color: var(--accent-color);
+    color: var(--accent-color);
+}
+
+/* header */
+
+.header {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+}
+
+/* featured Section */
+
+.featuredContainer {
+    background-color: #edeeef;
+    padding: var(--padding-inline-section);
+}
+
+.rightFeaturedImage {
+    max-width: 700px;
+}
+
+.leftFeatured {
+    flex-direction: column;
+    gap: 30px;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.featured {
+    gap: 40px;
+}
+
+/* Aproach */
+.outerAproach{
+    margin-top: 80px;
+}
+
+.aproach {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    flex-direction: column;
+}
+
+.connect{
+    flex-direction: column;
+    align-items: center;
+    gap:20px;
+    
+}
+.connect>p{
+    font-size: 12px;
+}
+.demonstrateAproach{
+    
+    gap:40px;
+    text-align: center;
+    justify-content: space-between;
+}
+.security-logo{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.icon{
+    font-size: 55px;
+    color: #1d69a3;
+}
+
+/* testimony */
+.privacy{
+    margin-top: 100px; 
+    justify-content: space-between;  
+    gap: 50px;
+}
+.privacy-left{
+    width: 60%;
+    flex-direction: column;
+    gap: 20px;
+}
+.privacy-right{
+    width: 40%;
+    justify-content: space-around;
+   
+}
+/* testimony */
+.testimony{
+    background-color: #edeeef;
+    margin-top: 50px;
+    padding: 30px;
+}
+.testimonial{
+   gap: 10px;
+}
+.testimonoialIcon{
+    margin-top: 10px;
+    font-size: 28px;
+    padding: 10px;
+    border: 2px solid #1d69a3;
+    color: #1d69a3;
+    border-radius: 20px ;
+    
+}
+.doctsdeatails
+{
+    flex-direction: column;
+    gap: 5px;
+    justify-content: flex-start;
+}

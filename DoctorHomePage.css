@@ -1,0 +1,79 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 26-Apr-2023, 2:02:39 pm
+    Author     : HP
+*/
+.containerbox{
+    width: 94%;
+    height: 500px;
+    margin-left: 3%;
+}
+
+.box1{
+    float: left;
+    width: 21%;
+height: 340px;
+    background-color: #eef5ff;
+    margin-left: inherit;
+    border-radius: 32px;
+    border-top: solid #0faad1 8px;
+    box-shadow: 8px 12px 10px brown;
+}
+.box1:hover{
+   box-shadow: 8px 12px 20px brown; 
+}
+.box2{
+    float: left;
+  width: 21%;
+height: 340px;
+    background-color: #eef5ff;
+    margin-left: inherit;
+    border-radius: 32px;
+    border-top: solid #0faad1 8px;
+    box-shadow: 8px 12px 10px brown;
+}
+.box2:hover{
+   box-shadow: 8px 12px 20px brown; 
+}
+.box3{
+    float: left;
+   width: 21%;
+height: 340px;
+    background-color: #eef5ff;
+    margin-left: inherit;
+    border-radius: 32px;
+    border-top: solid #0faad1 8px;
+    box-shadow: 8px 12px 10px brown;
+}
+.box3:hover{
+   box-shadow: 8px 12px 20px brown; 
+}
+.box4{
+    float: left;
+  width: 21%;
+height: 340px;
+    background-color: #eef5ff;
+    margin-left: inherit;
+    border-radius: 32px;
+    border-top: solid #0faad1 8px;
+    box-shadow: 8px 12px 10px brown;
+}
+.box4:hover{
+   box-shadow: 8px 12px 20px brown; 
+}
+.box-Img{
+    width: 232px;
+height: 191px;
+margin-left: 33px;
+border-radius: 13px;
+margin-top: 24px;
+}
+.PG{
+   font-size: 20px;
+text-align: center;
+font-style: oblique; 
+color: black;
+}

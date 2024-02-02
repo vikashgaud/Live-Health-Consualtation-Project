@@ -1,0 +1,54 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 29-Apr-2023, 2:13:49 am
+    Author     : HP
+*/
+.P-R{
+height: 978px;
+    background-color: #c7d6ec;
+    width: 43%;
+    position: relative;
+left: 30%;
+border-radius: 14px;
+border-top: solid blueviolet 5px;
+padding: 35px;
+font-size: 20px;
+}
+.P-R1{
+    
+    width: 100%;
+    float: left;
+}
+.P-R-I1{
+   float: left;
+    width: 50%;
+    
+}
+.P-R-I2{
+    float: left;
+    width: 50%;
+    
+}
+.inp{
+   width: 261px;
+height: 29px;
+border-radius: 7px;
+border: solid #7a7abe 2px;
+font-size: 16px;
+}
+.reg{
+    width: 598px;
+height: 32px;
+font-size: 15px;
+margin-top: 28px;
+}
+.labe{
+    font-size: 14px;
+position: relative;
+left: 21px;
+top: -23px;
+}
+
